@@ -1,0 +1,315 @@
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+ 
+  
+
+}
+body{
+    background-color: rgb(224, 199, 169);
+}
+ul{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height:7vh;
+    background-color: black;
+    padding:3px;
+    position:sticky;
+}
+
+ul li{
+    list-style-type: none;
+    color:white;
+    margin: 1.7vw;
+
+}
+
+
+
+.brand img{
+ width: 30px;
+ display: flex;
+ 
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-style: italic;
+    font-weight: bold;
+}
+span{
+    margin-left:1.5vw;
+}
+.container{
+    height: 79vh;
+    margin: 2vh auto;
+    background-color: black;
+    width:70%;
+    color: white;
+    padding: 1.5vw;
+    border-radius: 12px;
+   background-image: url('https://wallpapers.com/images/hd/girl-with-black-headphone-a09f6yk2y3h937yo.jpg');
+    background-repeat:no-repeat;
+    background-position: right;
+    background-size: 80% 100%;
+     
+}
+.bottom {
+
+
+    background-color: black;
+    height:10.3vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    display:flex;
+    flex-direction:column;
+
+}
+.bottom input{
+    width: 80vw;
+}
+.icons i{
+    color: white;
+
+    background-color: black;
+    margin: 0.2vw 1vw;
+}
+
+.spa{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    border-radius:12px;
+    height:5vh;
+    width: 25vw;
+    padding:1vw;
+    margin:1vw 0;
+
+}
+.spa img{
+
+     height:3vh;
+
+}
+.spa span{
+      font-size: 80%;
+      color:black;
+    
+}
+.exten{
+    display: flex;
+    align-items: center;
+    
+}
+.spa i{
+    color:black;
+}
+.songItems{
+    margin-top: 4vw;
+}
+.list img{
+ width:4vh;
+ 
+}
+.list{
+    margin-top: -2vw;
+    position: relative;
+    left:-40vw;
+    display: flex;
+    align-items: center;
+}
+.list span{
+    color:white;
+    
+}
+.list img{
+    opacity:0;
+    transition: opacity 0.8s;
+}
+
+.ran{
+    cursor:pointer;
+    width: 120px;
+}
+
+.songItem {
+display:flex;
+justify-content: space-between;
+align-items: center;
+background-color: white;
+width:30vw;
+margin-top: 1vw;
+height: 7vh;
+padding: 1vw;
+border-radius: 30px;
+
+}
+.songItem .Tajbir{
+
+     height:2rem;
+     width:3rem;
+     border-radius: 50%;
+}
+.love{
+    color: black;
+}
+.exten{
+    color:black;
+}
+.exten i {
+            margin-left:3px;
+   
+}
+
+
+@media screen and (max-width:1048px) {
+
+.container{
+    width: 75%;
+}
+.songItem{
+    width: 35vw;
+}
+
+
+
+}
+
+@media screen and (max-width:1000px) {
+
+    .container{
+        width: 80%;
+    }
+    .songItem{
+        width: 40vw;
+    }
+    .bottom input{
+        width:90vw;
+        height:4vh;
+    }
+
+    
+    
+    
+    }
+    
+    
+@media screen and (max-width:800px) {
+
+    .container{
+        width: 85%;
+    }
+    .songItem{
+        width: 42vw;
+    }
+    .hih{
+        margin-top: 2vw;
+    }
+
+    
+    
+    
+    }
+    
+    
+@media screen and (max-width:692px) {
+
+    .container{
+        width: 85%;
+    }
+    .songItem{
+        width: 42vw;
+        margin-top: 2vw;
+    }
+    .hih{
+        margin-top: 4vw;
+    }
+
+    
+    
+    
+    }
+       
+@media screen and (max-width:570px) {
+
+    .container{
+        width: 91%;
+    }
+    .songItem{
+        width: 46vw;
+        margin-top: 2vw;
+    }
+    .hih{
+        margin-top: 4vw;
+    }
+
+    
+    
+    
+    }
+         
+@media screen and (max-width:500px) {
+
+    .container{
+        width: 95%;
+    }
+    .songItem{
+        width: 60vw;
+        margin-top: 2vw;
+    }
+    .hih{
+        margin-top: 4vw;
+    }
+
+    
+    
+    
+    }
+             
+@media screen and (max-width:487px) {
+
+    .container{
+        width: 95%;
+        background-size: 200% 100%;
+    }
+    .songItem{
+        width: 100%;
+        margin-top: 2vw;
+    }
+    .hih{
+        margin-top: 4vw;
+    }
+     
+    
+    
+    
+    }
+
+               
+@media screen and (max-height:544px) {
+
+    .container{
+        height:100vh;
+        
+    }
+   .songItem{
+    height:9vh;
+   }
+    
+    
+    
+    }
+    @media screen and (max-width:414px) {
+
+       .list{
+        margin-left: 50px;
+       }
+        
+        
+        
+        }
